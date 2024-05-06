@@ -1,0 +1,22 @@
+.tootlipContainer {
+  position: absolute;
+  background-color: black;
+  color: white;
+  position: relative;
+  width: 70px;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.tootlipContainer::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: rotate(90deg);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid black;
+}
