@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../tooltip/Tooltip.css";
 
 function Tooltip() {
@@ -15,7 +15,7 @@ function Tooltip() {
     <div onMouseEnter={showText} onMouseLeave={hideText}>
       <span>Hover me</span>
       {visibility && (
-        <div className="tootlipContainer">
+        <div className="tootlipContainerDiv">
           <p>This is the tooltip text</p>
         </div>
       )}

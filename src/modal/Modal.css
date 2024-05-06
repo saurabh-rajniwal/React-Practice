@@ -1,4 +1,4 @@
-.model-overlay {
+.modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.model-sm {
+.modal-sm {
   background: white;
   padding: 20px;
   border-radius: 5px;
@@ -18,7 +18,7 @@
   text-align: left;
 }
 
-.model-md {
+.modal-md {
   background: white;
   padding: 20px;
   border-radius: 5px;
