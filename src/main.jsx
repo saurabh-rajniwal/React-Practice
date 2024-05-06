@@ -26,10 +26,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <App /> */}
     {/* <HookCounterThree /> */}
     {/* <ExampleComponent /> */}
-    {/* <MemoExample /> */}
-    {/* <Usememo /> */}
-    {/* <Parent /> */}
-    {/* <Api /> */}
     {/* <Domhook /> */}
     {/* <TodoList /> */}
     {/* <ComponentA /> */}

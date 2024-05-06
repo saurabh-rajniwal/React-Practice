@@ -11,7 +11,6 @@ function Tooltip({ openModal, closeModal, overlayClick, size }) {
     };
 
     document.addEventListener("keydown", handleKeyDown);
-
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
     };
@@ -37,8 +36,8 @@ function Tooltip({ openModal, closeModal, overlayClick, size }) {
   return (
     <>
       <h1>Model Example</h1>
-      <div className="model-overlay" onClick={handleOverlayClick}>
-        <div className={`model-${size}`} onClick={handleDialogClick}>
+      <div className="modal-overlay" onClick={handleOverlayClick}>
+        <div className={`modal-${size}`} onClick={handleDialogClick}>
           <h2 tabIndex={1}>This is model heading</h2>
           <p tabIndex={1}>This is model body</p>
           <button tabIndex={1} onClick={closeDialog}>

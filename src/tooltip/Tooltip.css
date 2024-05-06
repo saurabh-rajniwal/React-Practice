@@ -1,4 +1,4 @@
-.tootlipContainer {
+.tootlipContainerDiv {
   position: absolute;
   background-color: black;
   color: white;
@@ -8,7 +8,7 @@
   border-radius: 20px;
   font-size: 12px;
 }
-.tootlipContainer::before {
+.tootlipContainerDiv::before {
   content: "";
   position: absolute;
   top: 0px;
